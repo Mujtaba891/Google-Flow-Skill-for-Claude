@@ -1,0 +1,49 @@
+{
+  "examples": [
+    {
+      "style": "kinetic_typography_product_reveal",
+      "prompt": "Modern SaaS motion graphics, kinetic typography reveal, night-sky gradient background with softly glowing purple orbs, headline text assembles word by word with ease-out-back scale pop, 120ms stagger, floating profile cards slide up and fade in with staggered follow-through, camera slowly zooms in on the final UI card, sparkling particle emission trailing the text reveal, professional SaaS product advertisement, premium motion design.",
+      "annotations": { "camera": "subtle_push_in", "easing": ["ease_out_back"], "palette": "kinetic_brand", "pattern": "kinetic_word_reveal + card_stack_reveal" }
+    },
+    {
+      "style": "dashboard_growth_explainer",
+      "prompt": "Modern SaaS motion graphics, clean vector dashboard animation, dark green-to-black gradient background, a single glowing lime-green star particle drifts slowly upper right, metric chart bars grow from baseline staggered left to right with ease-out-back overshoot, camera pans fluidly along the chart's line path, kinetic headline text assembles with elastic-bounce easing, professional SaaS product advertisement, premium motion design.",
+      "annotations": { "camera": "parallax_drift", "easing": ["ease_out_back", "elastic"], "palette": "growth_analytics", "pattern": "chart_draw_on" }
+    },
+    {
+      "style": "dark_mode_chatbot_promo",
+      "prompt": "Modern SaaS motion graphics, dark neon-green backdrop, glowing headline text, a search bar UI floats in with ease-out-back settle, code snippet blocks reveal via spring-eased card pop staggered 100ms apart, integration icon grid assembles with staggered scale-ins, glowing particle trails follow the cursor, camera performs a subtle perspective tilt, professional developer tool advertisement, premium motion design.",
+      "annotations": { "camera": "subtle_push_in", "easing": ["ease_out_back"], "palette": "dark_mode_tech", "pattern": "card_stack_reveal" }
+    },
+    {
+      "style": "isometric_enterprise_tech",
+      "prompt": "Modern SaaS motion graphics, isometric 3D cube grid assembling tile by tile from back to front, deep blue background, each cube scales in from zero with ease-out-back, 40ms stagger, consistent top-left light source and isometric perspective across all elements, camera slowly orbits 20 degrees around the grid ease-in-out, subtle cyan rim light along cube edges, bloom limited to brightest highlights only, professional enterprise technology advertisement, premium motion design.",
+      "annotations": { "camera": "slow_orbit", "easing": ["ease_out_back", "ease_in_out"], "palette": "enterprise_isometric", "pattern": "isometric_grid_assembly" }
+    },
+    {
+      "style": "multi_agent_ai_demo",
+      "prompt": "Modern SaaS motion graphics, dark minimal backdrop with glowing orange accents, floating browser frame scales in ease-out-back, branching node graph constructs sequentially: node appears, brief anticipation pause, second node appears, connector line trims on between them, kinetic headline text reveals word by word, camera performs a slow linear dolly forward, terminal text types on with natural uneven timing, professional AI product advertisement, premium motion design.",
+      "annotations": { "camera": "subtle_push_in", "easing": ["ease_out_back", "ease_out"], "palette": "dark_mode_tech", "pattern": "orbit_node_branch" }
+    },
+    {
+      "style": "bold_promo_burst",
+      "prompt": "Modern SaaS motion graphics, bright white background, bold dynamic typography pops in with quint ease-out scaling, image carousel slides in fast with directional motion blur, camera whip-pans left resolving into focus on the next frame, sound-wave visualizer bars animate with quick staggered growth, high-energy professional advertisement, premium motion design.",
+      "annotations": { "camera": "whip_pan", "easing": ["quint_out"], "palette": "bright_promo", "pattern": "kinetic_word_reveal" }
+    },
+    {
+      "style": "mobile_banking_app_launch",
+      "prompt": "Modern SaaS motion graphics, sleek dark gradient background, mobile phone mockup rotates and tilts 20 degrees in 3D with ease-in-out, floating bank card UI tiles reorder with gentle spring physics, camera orbits in sync with the phone's rotation, smooth cross-fade theme transition from dark to light without moving UI layout, subtle metallic highlight on card edges, professional fintech advertisement, premium motion design.",
+      "annotations": { "camera": "object_orbit_rotation", "easing": ["ease_in_out"], "palette": "fintech_premium", "pattern": "theme_cross_fade" }
+    },
+    {
+      "style": "ai_workflow_node_platform",
+      "prompt": "Modern SaaS motion graphics, soft green gradient environment, glowing sphere nodes orbit slowly with consistent angular velocity and slight vertical bob, flowchart decision tree branches draw on sequentially after each node appears, UI toggle switches flip with expo easing and a glow-color-shift landing, camera drifts slowly across the background, fluid card stacking in the foreground, professional workflow platform advertisement, premium motion design.",
+      "annotations": { "camera": "parallax_drift", "easing": ["expo_out", "ease_in_out"], "palette": "ai_workflow_soft", "pattern": "orbit_node_branch" }
+    },
+    {
+      "style": "command_palette_minimal_teaser",
+      "prompt": "Modern SaaS motion graphics, dark grid background, centered command search bar snaps open with expo easing keyboard-trigger animation, glowing shortcut keys highlight, file grid results fade in with staggered grid item timing, floating 3D cube logo rotates subtly in isometric perspective, camera holds steady with only micro-drift, no shake, professional productivity tool advertisement, premium motion design.",
+      "annotations": { "camera": "micro_drift_static", "easing": ["expo_out", "ease_out"], "palette": "minimal_command", "pattern": "card_stack_reveal" }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "patterns": [
+    {
+      "name": "card_stack_reveal",
+      "description": "Sequential card entrances forming a stacked/grid layout",
+      "steps": ["start 90-95% scale, 0% opacity, offset 20-40px", "anticipation hold 1-2 frames", "slide + scale + fade to 100%, ease_out_back", "settle with 3-5% overshoot then rebound"],
+      "stagger_ms": [80, 150]
+    },
+    {
+      "name": "orbit_node_branch",
+      "description": "Node graph construction with orbiting connector draw-on",
+      "steps": ["node A scale-pops in, ease_out_back", "brief anticipation pause", "node B scale-pops in", "connector line trims on A-to-B, ease_out"],
+      "stagger_ms": [200, 400]
+    },
+    {
+      "name": "metric_count_up",
+      "description": "Number counter animation with landing pop",
+      "steps": ["counts up from 0 to target, ease_out (decelerating)", "small scale-pop 102%->100% on arrival"],
+      "duration_s": [0.6, 1.2]
+    },
+    {
+      "name": "kinetic_word_reveal",
+      "description": "Word-by-word headline reveal",
+      "steps": ["each word fades/scales in sequentially", "ease_out_back per word", "hold for reading rhythm (0.3s/word minimum after full reveal)"],
+      "stagger_ms": [80, 150]
+    },
+    {
+      "name": "theme_cross_fade",
+      "description": "Dark/light theme transition without moving layout",
+      "steps": ["background/surface colors cross-fade", "UI content holds layout, no position change", "ease_in_out"],
+      "duration_s": [0.4, 0.6]
+    },
+    {
+      "name": "isometric_grid_assembly",
+      "description": "Isometric tile-by-tile grid construction",
+      "steps": ["each tile scales in from 0, ease_out_back", "staggered back-to-front or center-outward"],
+      "stagger_ms": [40, 80]
+    },
+    {
+      "name": "chart_draw_on",
+      "description": "Line/bar chart reveal",
+      "steps": ["line: trim-path draw left-to-right, ease_out, glowing leading dot", "bars: grow from baseline, staggered left-to-right, ease_out_back"],
+      "duration_s": [0.5, 1.0]
+    }
+  ]
+}

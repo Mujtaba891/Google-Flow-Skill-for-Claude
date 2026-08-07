@@ -1,0 +1,19 @@
+{
+  "presets": [
+    { "name": "subtle_push_in", "move": "push-in", "amount": "5-15% scale over shot", "easing": "ease_in_out", "prompt_phrase": "camera slowly pushes in {amount} over the shot, ease-in-out" },
+    { "name": "snap_push", "move": "push-in", "amount": "10-20% scale, fast", "easing": "quart_out", "prompt_phrase": "camera snaps in quickly then holds, quart ease-out" },
+    { "name": "slow_orbit", "move": "orbit", "amount": "15-30 degrees", "easing": "circ_out", "prompt_phrase": "camera slowly orbits {amount} around the object, ease-circ" },
+    { "name": "crane_reveal", "move": "crane + push", "amount": "vertical reframe with slight push", "easing": "ease_in_out", "prompt_phrase": "camera cranes {direction} while pushing in slightly, revealing {detail}" },
+    { "name": "parallax_drift", "move": "background/foreground differential drift", "amount": "1-3% background, matched to camera speed foreground", "easing": "ease_in_out", "prompt_phrase": "gentle parallax drift between background and foreground layers as the camera moves" },
+    { "name": "micro_drift_static", "move": "near-imperceptible drift", "amount": "1-3% over full shot", "easing": "ease_in_out", "prompt_phrase": "camera holds steady with only micro-drift, no shake" },
+    { "name": "whip_pan", "move": "fast directional pan with blur", "amount": "full-frame reframe, fast", "easing": "quint_out", "prompt_phrase": "camera whip-pans {direction}, motion blur, resolving into focus on the next subject" },
+    { "name": "object_orbit_rotation", "move": "camera orbit synced to object rotation", "amount": "15-30 degrees, same direction as object", "easing": "ease_in_out", "prompt_phrase": "camera orbits in sync with the object's rotation, adding dimensionality" }
+  ],
+  "selection_by_mood": {
+    "enterprise_isometric": ["slow_orbit", "crane_reveal"],
+    "dark_mode_dev_tool": ["subtle_push_in", "micro_drift_static"],
+    "bright_playful_consumer": ["whip_pan", "snap_push"],
+    "fintech_banking": ["object_orbit_rotation", "subtle_push_in"],
+    "growth_dashboard": ["parallax_drift", "subtle_push_in"]
+  }
+}

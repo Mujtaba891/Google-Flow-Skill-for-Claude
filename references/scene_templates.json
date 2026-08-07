@@ -1,0 +1,25 @@
+{
+  "templates": [
+    {
+      "video_type": "feature_teaser_6_10s",
+      "scenes": ["Hook (1.5-3s)", "Climax (2-4s)", "Outro (1.5-2.5s)"]
+    },
+    {
+      "video_type": "app_launch_15s",
+      "scenes": ["Reveal (3-4s)", "Focus beat (2-3s)", "Outro (1.5-2.5s)"]
+    },
+    {
+      "video_type": "ai_agent_demo_25_30s",
+      "scenes": ["Hook (2s)", "Reveal (3-4s)", "Focus x2 (2-3s each)", "Transformation (3s)", "Climax (3-4s)", "Outro (2s)"]
+    },
+    {
+      "video_type": "dashboard_analytics_30_40s",
+      "scenes": ["Hook (2-3s)", "Reveal (3-4s)", "Focus x3 (2-3s each)", "Explanation x2 (2-3s each)", "Climax (3-4s)", "Outro (2s)"]
+    },
+    {
+      "video_type": "deep_dive_60s_plus",
+      "scenes": ["Hook (2-3s)", "Reveal (3-4s)", "Focus x4 (2-3s each)", "Transformation (3-4s)", "Explanation x3 (2-3s each)", "Climax (3-4s)", "Outro (2-2.5s)"]
+    }
+  ],
+  "pacing_rule": "no two consecutive scenes within 0.3s of the same length"
+}

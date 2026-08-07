@@ -1,0 +1,14 @@
+{
+  "transitions": [
+    { "name": "swipe", "duration_s": [0.2, 0.3], "motivated_by": "matches exit direction of prior scene's last motion" },
+    { "name": "morph", "duration_s": [0.3, 0.5], "requires": "genuine visual link between scenes (shared shape/element)" },
+    { "name": "zoom_match_cut", "duration_s": [0.4, 0.6], "use": "diving into a feature/detail" },
+    { "name": "whip", "duration_s": [0.15, 0.25], "use": "high-energy promo-burst style only" },
+    { "name": "spin", "duration_s": [0.3, 0.5], "use": "3D/isometric object reveals" },
+    { "name": "stretch", "duration_s": [0.25, 0.4], "use": "playful brand moments, sparingly" },
+    { "name": "liquid", "duration_s": [0.4, 0.6], "use": "premium/abstract brand content, orb merge/split" },
+    { "name": "blur_transition", "duration_s": [0.3, 0.4], "use": "reliable default when no specific link is motivated" },
+    { "name": "camera_match_cut", "duration_s": [0.3, 0.6], "use": "seamless momentum across cut, works well with Flow scene-extension" },
+    { "name": "shape_transition", "duration_s": [0.25, 0.4], "use": "recurring brand shape as connective device across a full sequence" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "easing_curves": {
+    "ease_in": { "cubic_bezier": [0.42, 0.0, 1.0, 1.0], "feel": "slow start, accelerates", "use": ["exits", "elements leaving frame"] },
+    "ease_out": { "cubic_bezier": [0.0, 0.0, 0.58, 1.0], "feel": "fast start, decelerates into rest", "use": ["entrances", "default UI reveal"] },
+    "ease_in_out": { "cubic_bezier": [0.42, 0.0, 0.58, 1.0], "feel": "slow-fast-slow", "use": ["camera moves", "ambient/background motion"] },
+    "ease_out_back": { "cubic_bezier": [0.34, 1.56, 0.64, 1.0], "feel": "overshoots then settles", "use": ["card reveals", "buttons", "snappy entrances"] },
+    "elastic": { "cubic_bezier_approx": [0.68, -0.55, 0.27, 1.55], "feel": "springs past target with 1-2 oscillations", "use": ["playful/consumer moments", "notification pop-ins"] },
+    "bounce": { "feel": "literal bounce settle, non-bezier (segmented)", "use": ["gamified/playful brand tone only"] },
+    "quart_out": { "cubic_bezier": [0.25, 1.0, 0.5, 1.0], "feel": "sharp deceleration", "use": ["fast whip transitions"] },
+    "quint_out": { "cubic_bezier": [0.22, 1.0, 0.36, 1.0], "feel": "very sharp deceleration", "use": ["promo-burst pacing"] },
+    "expo_out": { "cubic_bezier": [0.16, 1.0, 0.3, 1.0], "feel": "near-instant then holds", "use": ["toggle/switch flips", "snap-zooms"] },
+    "circ_out": { "cubic_bezier": [0.075, 0.82, 0.165, 1.0], "feel": "circular-arc velocity", "use": ["natural rotations", "orbit camera moves"] },
+    "cubic_out": { "cubic_bezier": [0.215, 0.61, 0.355, 1.0], "feel": "general-purpose smooth", "use": ["safe default"] }
+  }
+}

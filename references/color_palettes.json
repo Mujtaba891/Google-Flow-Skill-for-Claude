@@ -1,0 +1,13 @@
+{
+  "palettes": [
+    { "name": "dark_mode_tech", "background": ["#0A0A0F", "#121218"], "accent": "#39FF88", "text": "#F5F5F5", "style_ref": "dark-mode chatbot / dev-tool promo" },
+    { "name": "growth_analytics", "background": ["#0D1F14", "#050805"], "accent": "#C6F135", "text": "#F0FFEA", "style_ref": "dashboard / growth explainer" },
+    { "name": "enterprise_isometric", "background": ["#0B1330", "#060A1C"], "accent": "#5ED0FF", "text": "#FFFFFF", "style_ref": "isometric enterprise-tech" },
+    { "name": "bright_promo", "background": ["#FFFFFF", "#F7F7F7"], "accent_primary": "#FF3B30", "accent_secondary": "#111111", "style_ref": "bold promo-burst showcase" },
+    { "name": "fintech_premium", "background": ["#120B23", "#04030A"], "accent": "#C9A6FF", "surface": "#1C1730", "style_ref": "mobile banking app launch" },
+    { "name": "ai_workflow_soft", "background": ["#0E2318", "#182E1F"], "accent": "#8CE7A8", "text": "#EFFCF2", "style_ref": "AI-workflow / node-based platform" },
+    { "name": "minimal_command", "background": ["#0C0C10", "#050506"], "accent": "#7A7CFF", "text": "#FFFFFF", "style_ref": "command-palette / minimal feature teaser" },
+    { "name": "kinetic_brand", "background": ["#090914", "#010104"], "accent": "#B98CFF", "text": "#FFFFFF", "style_ref": "kinetic-typography product reveal" }
+  ],
+  "usage_rule": "one saturated accent color per scene, except bright_promo which uses two at high area-coverage by design"
+}
